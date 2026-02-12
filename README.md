@@ -20,7 +20,6 @@
    - 自动检测 `nvidia-smi`，有 GPU 时安装 `torch` cu118 版本；否则安装 CPU 轮子。
    - 先尝试 `pip install git+https://github.com/automl/TabPFN.git`，失败后回退到 PyPI 包。
    - 安装 `pandas/numpy/scikit-learn/pyyaml/matplotlib/tqdm` 等依赖。
-   - 任一步失败立即退出，避免半成品环境。
 
 ## 使用方式
 ### 方式一：完全依赖配置
