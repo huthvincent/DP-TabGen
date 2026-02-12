@@ -1,7 +1,7 @@
 # path: README.md
 # TabPFN 条件合成数据最小实践
 
-本项目提供一套可直接落地的 TabPFN 数据生成流水线，涵盖环境部署、配置管理、命令行工具以及可视化测试。核心思路：对每一列建立 TabPFN 条件模型，采用 Gibbs 式迭代采样，在保证类别/整数特性的同时近似还原联合分布。
+本项目提供一套可直接落地的 DP-TabPFN 数据生成流水线，涵盖环境部署、配置管理、命令行工具以及可视化测试。核心思路：对每一列建立 DP-TabPFN 条件模型，采用 Gibbs 式迭代采样，在保证类别/整数特性的同时近似还原联合分布。
 
 ## 目录结构
 - `scripts/bootstrap.sh`：一键部署（创建/复用 `tabpfn` conda 环境，自动安装 GPU/CPU 版 PyTorch、TabPFN 与依赖）。
@@ -90,4 +90,3 @@ conda run -n tabpfn python src/cli_generate.py \
 conda run -n tabpfn python sync_data_proj/test_pipeline.py
 ```
 
-祝使用顺利！
