@@ -1,0 +1,110 @@
+[
+  {
+    "scenario": "original_train_test",
+    "model": "Logistic",
+    "accuracy": 0.9107793153678078,
+    "precision": 0.6714031971580817,
+    "recall": 0.4073275862068966,
+    "f1": 0.5070422535211268,
+    "roc_auc": 0.9352379534412001
+  },
+  {
+    "scenario": "original_train_test",
+    "model": "XGBoost",
+    "accuracy": 0.9170915270696771,
+    "precision": 0.6609724047306176,
+    "recall": 0.5420258620689655,
+    "f1": 0.5956187092954411,
+    "roc_auc": 0.948612110241049
+  },
+  {
+    "scenario": "original_train_test",
+    "model": "LightGBM",
+    "accuracy": 0.9141781985918912,
+    "precision": 0.6471371504660453,
+    "recall": 0.5237068965517241,
+    "f1": 0.5789160214413341,
+    "roc_auc": 0.9478906729090995
+  },
+  {
+    "scenario": "original_train_test",
+    "model": "CatBoost",
+    "accuracy": 0.9139354212187424,
+    "precision": 0.6489795918367347,
+    "recall": 0.5140086206896551,
+    "f1": 0.5736620565243535,
+    "roc_auc": 0.948595010377848
+  },
+  {
+    "scenario": "synthetic_train_test",
+    "model": "Logistic",
+    "accuracy": 0.8964554503520272,
+    "precision": 0.7383333333333333,
+    "recall": 0.38893766461808604,
+    "f1": 0.5094882116158712,
+    "roc_auc": 0.8144481391423763
+  },
+  {
+    "scenario": "synthetic_train_test",
+    "model": "XGBoost",
+    "accuracy": 0.9116290361738286,
+    "precision": 0.7686274509803922,
+    "recall": 0.5162423178226514,
+    "f1": 0.6176470588235294,
+    "roc_auc": 0.8272674643734832
+  },
+  {
+    "scenario": "synthetic_train_test",
+    "model": "LightGBM",
+    "accuracy": 0.9104151493080845,
+    "precision": 0.764163372859025,
+    "recall": 0.5092186128182616,
+    "f1": 0.6111696522655427,
+    "roc_auc": 0.8307017731540667
+  },
+  {
+    "scenario": "synthetic_train_test",
+    "model": "CatBoost",
+    "accuracy": 0.9100509832483612,
+    "precision": 0.7748618784530387,
+    "recall": 0.4925373134328358,
+    "f1": 0.6022544283413849,
+    "roc_auc": 0.8227438332644262
+  },
+  {
+    "scenario": "synthetic_train_original_test",
+    "model": "Logistic",
+    "accuracy": 0.9068903564144897,
+    "precision": 0.6334991708126037,
+    "recall": 0.41163793103448276,
+    "f1": 0.4990202482037884,
+    "roc_auc": 0.928746484311609
+  },
+  {
+    "scenario": "synthetic_train_original_test",
+    "model": "XGBoost",
+    "accuracy": 0.9163348548120812,
+    "precision": 0.6842592592592592,
+    "recall": 0.47780172413793104,
+    "f1": 0.5626903553299493,
+    "roc_auc": 0.8832388848344926
+  },
+  {
+    "scenario": "synthetic_train_original_test",
+    "model": "LightGBM",
+    "accuracy": 0.9157521608235408,
+    "precision": 0.6792279411764706,
+    "recall": 0.47780172413793104,
+    "f1": 0.5609817813765182,
+    "roc_auc": 0.8820461129530178
+  },
+  {
+    "scenario": "synthetic_train_original_test",
+    "model": "CatBoost",
+    "accuracy": 0.9155822084102165,
+    "precision": 0.6820031298904539,
+    "recall": 0.4696120689655172,
+    "f1": 0.5562220804084237,
+    "roc_auc": 0.8696663168275635
+  }
+]

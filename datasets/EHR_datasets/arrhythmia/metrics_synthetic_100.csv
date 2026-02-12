@@ -1,0 +1,6 @@
+model,train_csv,test_csv,target,train_rows,test_rows,test_accuracy,test_balanced_accuracy
+logistic,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/synthetic_100.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/dataset.csv,label_arrhythmia_class,452,452,0.6991150442477876,0.6280591935536991
+xgboost,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/synthetic_100.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/dataset.csv,label_arrhythmia_class,452,452,0.7256637168141593,0.6542995222116101
+lightgbm,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/synthetic_100.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/dataset.csv,label_arrhythmia_class,452,452,0.7057522123893806,0.6599166035429772
+catboost,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/synthetic_100.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/dataset.csv,label_arrhythmia_class,452,452,0.7743362831858407,0.5680654144390408
+mlp,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/synthetic_100.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/arrhythmia/dataset.csv,label_arrhythmia_class,452,452,0.7123893805309734,0.5909347307149506

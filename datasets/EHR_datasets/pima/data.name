@@ -1,0 +1,16 @@
+下面整理了 Pima Indians Diabetes 数据集的字段说明（中英对照）、类型与单位/备注；便于直接放到论文里，我也给出了一份可用的 LaTeX 表格。
+	•	样本量：768
+	•	特征数：8（全部为数值型）
+	•	目标列：Outcome（二分类：0=无糖尿病，1=确诊糖尿病；常见分布约 500/268）
+	•	常见清洗约定：在 UCI/OpenML 版本中，Glucose、BloodPressure、SkinThickness、Insulin、BMI 中的 0 往往表示缺失值（非生理合理值），建模前通常将其视为缺失并进行插补。
+
+快速字段说明（中文）
+	•	Pregnancies：怀孕次数（非负整数，计数型）
+	•	Glucose：口服葡萄糖耐量试验（OGTT）2 小时血浆葡萄糖浓度（连续值，常用 mg/dL）
+	•	BloodPressure：舒张压（连续值，mmHg）
+	•	SkinThickness：肱三头肌皮褶厚度（连续值，mm）
+	•	Insulin：2 小时血清胰岛素（连续值，μU/mL）
+	•	BMI：体质指数（连续值，kg/m²）
+	•	DiabetesPedigreeFunction：糖尿病家族遗传函数（连续值、无量纲）
+	•	Age：年龄（整数，年）
+	•	Outcome：是否糖尿病（0/1，二分类标签）

@@ -1,0 +1,6 @@
+model,train_csv,test_csv,target,train_rows,test_rows,test_accuracy,test_balanced_accuracy,test_auroc
+logistic,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/synthetic_200_vA.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/dataset.csv,label_diabetes,1536,768,0.6484375,0.498,0.47390298507462686
+xgboost,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/synthetic_200_vA.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/dataset.csv,label_diabetes,1536,768,0.6223958333333334,0.5247462686567164,0.5429850746268657
+lightgbm,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/synthetic_200_vA.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/dataset.csv,label_diabetes,1536,768,0.59765625,0.5074776119402985,0.5349626865671642
+catboost,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/synthetic_200_vA.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/dataset.csv,label_diabetes,1536,768,0.6315104166666666,0.5248208955223881,0.5360746268656716
+mlp,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/synthetic_200_vA.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/pima/dataset.csv,label_diabetes,1536,768,0.5690104166666666,0.5356865671641791,0.5263059701492537

@@ -1,0 +1,6 @@
+model,train_csv,test_csv,target,train_rows,test_rows,test_accuracy,test_balanced_accuracy,test_auroc
+logistic,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/synthetic_200.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/dataset.csv,label_class,800,400,0.9875,0.986,0.9922933333333334
+xgboost,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/synthetic_200.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/dataset.csv,label_class,800,400,0.9725,0.9713333333333334,0.9977333333333334
+lightgbm,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/synthetic_200.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/dataset.csv,label_class,800,400,0.9775,0.9753333333333334,0.9982133333333334
+catboost,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/synthetic_200.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/dataset.csv,label_class,800,400,0.98,0.9786666666666668,0.9976
+mlp,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/synthetic_200.csv,/home/zhu11/TabPFN/sync_data_proj/datasets/EHR_datasets/ckd/dataset.csv,label_class,800,400,0.9825,0.9766666666666668,0.9994666666666666
